@@ -7310,7 +7310,7 @@ ember-responsive@^4.0.0:
   dependencies:
     ember-cli-babel "^7.19.0"
 
-ember-rfc176-data@^0.3.12, ember-rfc176-data@^0.3.13, ember-rfc176-data@^0.3.15:
+ember-rfc176-data@^0.3.13, ember-rfc176-data@^0.3.15:
   version "0.3.15"
   resolved "https://registry.yarnpkg.com/ember-rfc176-data/-/ember-rfc176-data-0.3.15.tgz#af3f1da5a0339b6feda380edc2f7190e0f416c2d"
   integrity sha512-GPKa7zRDBblRy0orxTXt5yrpp/Pf5CkuRFSIR8qMFDww0CqCKjCRwdZnWYzCM4kAEfZnXRIDDefe1tBaFw7v7w==
@@ -7663,13 +7663,14 @@ escodegen@^1.11.0, escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@^7.1.0:
-  version "7.13.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-7.13.0.tgz#a1df7794f06cdc6e1b8acfe6c59db5cf861f53dc"
-  integrity sha512-qIbw4uP0qUJoiWF4+7MTJWqwEN86RGmBNId0cwSoHoVNWtcw50R1ajYgxM1Q5FVUdoisVeSl9lKVRh5zkDFl+g==
+eslint-plugin-ember@^8.14.0:
+  version "8.14.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-8.14.0.tgz#fc4c5119b5a1c87604a7bf920ca397783b96b7be"
+  integrity sha512-PQhR58omMAZzcJOB8GLWzL6l/vjRZ2Uo1eohxOmgPUyeBkHfZAMlvK+OSeneMLIr4azLQ4GISkklwv6lxb8qnw==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
-    ember-rfc176-data "^0.3.12"
+    ember-rfc176-data "^0.3.15"
+    lodash.kebabcase "^4.1.1"
     snake-case "^3.0.3"
 
 eslint-plugin-es@^3.0.0:
@@ -10316,6 +10317,11 @@ lodash.isplainobject@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
   integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
+
+lodash.kebabcase@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
+  integrity sha1-hImxyw0p/4gZXM7KRI/21swpXDY=
 
 lodash.keys@^3.0.0:
   version "3.1.2"
