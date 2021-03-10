@@ -6,7 +6,7 @@ export default class PostModel extends Model {
   @attr('string') text;
 
   @belongsTo() author;
-  @hasMany() comments;
+  @hasMany({ async: false }) comments;
   @hasMany() tags;
 
 }

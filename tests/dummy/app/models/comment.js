@@ -4,7 +4,7 @@ export default class CommentModel extends Model {
 
   @attr('string') text;
 
-  @belongsTo() post;
+  @belongsTo({ async: false }) post;
   @belongsTo() author;
 
 }
