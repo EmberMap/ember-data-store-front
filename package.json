@@ -49,7 +49,7 @@
     "ember-cli-deploy-git-ci": "^1.0.1",
     "ember-cli-eslint": "^5.1.0",
     "ember-cli-fastboot": "^2.0.4",
-    "ember-cli-htmlbars": "^4.0.1",
+    "ember-cli-htmlbars": "^5.7.1",
     "ember-cli-inject-live-reload": "^1.8.2",
     "ember-cli-mirage": "1.1.6",
     "ember-cli-qunit": "^4.3.2",
